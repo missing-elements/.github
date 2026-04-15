@@ -10,7 +10,6 @@ Built on web standards, they work with any framework — or no framework at all.
 | Component | Description | Status |
 | --- | --- | --- |
 | [pdfjs-viewer](https://github.com/missing-elements/pdfjs-viewer) | A standalone, plug-in PDF viewer based on PDF.js | ✅ Released |
-| content-flow | Layout primitives for content-driven websites | 🚧 In progress |
 
 ## Why Web Components?
 
