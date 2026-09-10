@@ -25,4 +25,4 @@ Built on web standards, they work with any framework — or no framework at all.
 
 ## Support this project
 
-[Buy Me a Coffee](https://buymeacoffee.com/alekswebnet
+[Buy Me a Coffee](https://buymeacoffee.com/alekswebnet)
