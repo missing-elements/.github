@@ -9,8 +9,8 @@ Built on web standards, they work with any framework — or no framework at all.
 
 | Component | Description | Status |
 | --- | --- | --- |
-| [pdfjs-viewer](https://github.com/missing-elements/pdfjs-viewer) | A standalone, plug-in PDF viewer based on PDF.js | ✅ Released |
-| [office-viewer](https://github.com/missing-elements/office-viewer) | A standalone, read-only browser-based Office Open XML viewer Web Component for DOCX, XLSX, and PPTX. | 🛠️ In progress |
+| [pdfjs&#8209;viewer](https://github.com/missing-elements/pdfjs-viewer) | A standalone, plug-in PDF viewer based on PDF.js | ✅&nbsp;Released |
+| [office&#8209;viewer](https://github.com/missing-elements/office-viewer) | A standalone, read-only browser-based Office Open XML viewer Web Component for DOCX, XLSX, and PPTX. |✅&nbsp;Released |
 
 ## Why Web Components?
 
@@ -22,3 +22,7 @@ Built on web standards, they work with any framework — or no framework at all.
 ## License
 
 [MIT](https://opensource.org/licenses/MIT)
+
+## Support this project
+
+[Buy Me a Coffee](https://buymeacoffee.com/alekswebnet
