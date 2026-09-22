@@ -15,9 +15,10 @@ Built on web standards, they work with any framework — or no framework at all.
 ## Why Web Components?
 
 - **Universal** — work in any framework: React, Vue, Svelte, Angular, or plain HTML
+- **Easy to adopt** — just drop a tag into your markup and you're good to go
 - **Encapsulated** — styles and behavior are isolated, no conflicts with your app
 - **Standards-based** — built on native browser APIs, no heavy runtime needed
-- **Easy to adopt** — just drop a tag into your markup and you're good to go
+- **Self-hostable** — no CDN needed, no third-party scripts, stricter CSP
 
 ## License
 
