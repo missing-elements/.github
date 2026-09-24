@@ -5,7 +5,7 @@ Useful web elements that work everywhere on the web.
 **Missing Elements** is a collection of standalone, framework-agnostic web components designed to fill the gaps in the web platform. 
 Built on web standards, they work with any framework — or no framework at all. Self-hosting is by default for stricter CSP
 
-## Projects
+## Components
 
 | Component | Description | Status |
 | --- | --- | --- |
@@ -20,10 +20,6 @@ Built on web standards, they work with any framework — or no framework at all.
 - **Encapsulated** — styles and behavior are isolated, no conflicts with your app
 - **Standards-based** — built on native browser APIs, no heavy runtime needed
 - **Self-hostable** — no CDN needed, no third-party scripts, stricter CSP
-
-## License
-
-[MIT](https://opensource.org/licenses/MIT)
 
 ## Support this project
 
