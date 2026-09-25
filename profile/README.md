@@ -11,7 +11,7 @@ Built on web standards, they work with any framework — or no framework at all.
 | --- | --- | --- |
 | [pdfjs&#8209;viewer](https://github.com/missing-elements/pdfjs-viewer) | A standalone, plug-in PDF viewer based on PDF.js | ✅&nbsp;Released |
 | [office&#8209;viewer](https://github.com/missing-elements/office-viewer) | A standalone, read-only browser-based Office Open XML viewer Web Component for DOCX, XLSX, and PPTX. Based on `@silurus/ooxml` |🚧&nbsp;Developing |
-| [h5p&#8209;offline&#8209;player](https://github.com/missing-elements/h5p-offline-player) | A browser-only H5P player, as one web component |🚧&nbsp;Developing|
+| [h5p&#8209;offline&#8209;player](https://github.com/missing-elements/h5p-offline-player) | A browser-only H5P player, as one web component |✅&nbsp;Released|
 
 ## Main Benefits
 
