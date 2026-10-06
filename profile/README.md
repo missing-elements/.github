@@ -2,25 +2,55 @@
 
 Useful web elements that work everywhere on the web.
 
-**Missing Elements** is a collection of standalone, framework-agnostic web components designed to fill the gaps in the web platform. 
-Built on web standards, they work with any framework — or no framework at all. Self-hosting is by default for stricter CSP
+**Missing Elements** builds standalone, framework-agnostic web components for capabilities the web platform does not provide out of the box.
+
+Each component is built on browser standards and works with React, Vue, Svelte, Angular, server-rendered HTML, or no framework at all. They are designed to be easy to embed, safe to self-host, and useful in applications with strict Content Security Policies.
 
 ## Components
 
-| Component | Description | Status |
+| Component | What it does | Status |
 | --- | --- | --- |
-| [pdfjs&#8209;viewer](https://github.com/missing-elements/pdfjs-viewer) | A standalone, self-hostable, plug-in PDF viewer based on PDF.js | ✅&nbsp;Released |
-| [h5p&#8209;offline&#8209;player](https://github.com/missing-elements/h5p-offline-player) | A browser-only H5P player, as one web component, self-hostable and builds fully offline PWA |✅&nbsp;Released|
-| [office&#8209;viewer](https://github.com/missing-elements/office-viewer) | A standalone, read-only browser-based Office Open XML viewer Web Component for DOCX, XLSX, and PPTX. Based on `@silurus/ooxml` |🚧&nbsp;Developing|
+| [pdfjs&#8209;viewer](https://github.com/missing-elements/pdfjs-viewer) | A self-hostable custom element for displaying PDF documents, powered by PDF.js. | ✅ Released |
+| [h5p&#8209;offline&#8209;player](https://github.com/missing-elements/h5p-offline-player) | A browser-only H5P player that plays `.h5p` packages from a URL or local file without server-side extraction. It can also power a fully offline PWA. | ✅ Released |
+| [office&#8209;viewer](https://github.com/missing-elements/office-viewer) | A read-only browser-based viewer for DOCX, XLSX, and PPTX files, built on `@silurus/ooxml`. | 🚧 In development |
 
-## Main Benefits
+## Principles
 
-- **Universal** — work in any framework: React, Vue, Svelte, Angular, or plain HTML
-- **Easy to adopt** — just drop a tag into your markup and you're good to go
-- **Encapsulated** — styles and behavior are isolated, no conflicts with your app
-- **Standards-based** — built on native browser APIs, no heavy runtime needed
-- **Self-hostable** — no CDN needed, no third-party scripts, stricter CSP
+- **Browser-native** — Prefer platform APIs, standard web components, and small integration surfaces over framework lock-in.
+- **Framework-agnostic** — Use the same component in React, Vue, Svelte, Angular, or plain HTML.
+- **Self-hostable** — Host assets yourself without depending on a third-party viewer service or CDN.
+- **CSP-conscious** — Support deployments with restrictive Content Security Policies and clear asset boundaries.
+- **Encapsulated** — Keep component styles and behavior isolated from the surrounding application.
+- **Practical** — Solve real document and learning-content viewing problems with a small, understandable API.
 
-## Support this project
+## Quick start
+
+The common model is simple: load a component once, then use its custom element in your page.
+
+```html
+<script type="module" src="/path/to/component.js"></script>
+
+<!-- The exact element and attributes depend on the component. -->
+<your-element src="/files/example"></your-element>
+```
+
+See each repository for installation instructions, browser requirements, demos, API documentation, and self-hosting guidance.
+
+## Why self-hosting?
+
+Many viewer integrations send documents or learning content to a third-party service, require a backend conversion step, or rely on an external CDN at runtime.
+
+Missing Elements components are intended to give hosts control over:
+
+- where viewer code is served from;
+- which origins a page can contact;
+- how documents and packages are stored and loaded;
+- whether an experience can work without a network connection.
+
+Self-hosting does not make untrusted content automatically safe. Host applications should still apply an appropriate Content Security Policy, validate inputs where applicable, and choose a security policy that fits their users and content sources.
+
+## Support the project
+
+If these components are useful to you, you can support their development:
 
 [Buy Me a Coffee](https://buymeacoffee.com/alekswebnet)
