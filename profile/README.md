@@ -10,8 +10,8 @@ Each component is built on browser standards and works with React, Vue, Svelte, 
 
 | Component | What it does | Status |
 | --- | --- | --- |
-| [pdfjs&#8209;viewer](https://github.com/missing-elements/pdfjs-viewer) | A self-hostable custom element for displaying PDF documents, powered by PDF.js. | ✅ Released |
-| [h5p&#8209;offline&#8209;player](https://github.com/missing-elements/h5p-offline-player) | A browser-only H5P player that plays `.h5p` packages from a URL or local file without server-side extraction. It can also power a fully offline PWA. | ✅ Released |
+| [pdfjs&#8209;viewer](https://github.com/missing-elements/pdfjs-viewer) | A self-hostable custom element for displaying PDF documents, powered by PDF.js. | ✅&nbsp;Released |
+| [h5p&#8209;offline&#8209;player](https://github.com/missing-elements/h5p-offline-player) | A browser-only H5P player that plays `.h5p` packages from a URL or local file without server-side extraction. It can also power a fully offline PWA. | ✅&nbsp;Released |
 
 ## Principles
 
