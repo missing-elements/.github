@@ -55,6 +55,4 @@ Self-hosting does not make untrusted content automatically safe. Host applicatio
 
 If these components are useful to you, you can support their development:
 
-[Buy Me a Coffee](https://buymeacoffee.com/alekswebnet)
-
 [Donatello](https://donatello.to/OleksandrShevchuk)
