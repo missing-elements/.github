@@ -13,7 +13,7 @@ They are designed to be easy to embed, safe to self-host, and useful in applicat
 
 | Component | What it does | Status |
 | --- | --- | --- |
-| [pdfjs&#8209;viewer](https://github.com/missing-elements/pdfjs-viewer) | A standalone, isolated, self-hostable, plug-in custom element for viewing PDF files, based on the PDF.js viewer.| ✅&nbsp;Released |
+| [pdfjs&#8209;viewer](https://github.com/missing-elements/pdfjs-viewer) | A standalone, isolated, self-hostable, plug-in custom element for viewing PDF files, based on the PDF.js Firefox built-in viewer. | ✅&nbsp;Released |
 | [h5p&#8209;offline&#8209;player](https://github.com/missing-elements/h5p-offline-player) | Self-hosted H5P player component. No H5P server, Moodle or WordPress. Plays offline, streams video, supports xAPI, H5P into SCORM and VS Code. | ✅&nbsp;Released |
 
 ## Principles
