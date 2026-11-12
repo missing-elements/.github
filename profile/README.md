@@ -1,6 +1,6 @@
 # Missing Elements
 
-Web components and browser-based tools. Elements you host yourself,, and tools built on them that run in your browser, your editor and your AI agent, with no
+Web components and browser-based tools. Elements you host yourself, and tools built on them that run in your browser, your editor and your AI agent, with no
 server of ours between you and your files.
 
 **[missing-elements.github.io](https://missing-elements.github.io/)**
