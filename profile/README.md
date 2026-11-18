@@ -57,7 +57,7 @@ A chat that cannot install a skill reads `h5p-author` from
 [missing-elements.github.io/h5p/skill/](https://missing-elements.github.io/h5p/skill/).
 
 In an app with no shell, such as Claude Desktop,
-[`h5p-mcp`](https://github.com/missing-elements/h5p-toolkit/tree/main/packages/mcp#readme)
+[`@missing-elements/h5p-mcp`](https://github.com/missing-elements/h5p-toolkit/tree/main/packages/mcp#readme)
 builds a `.h5p` onto your disk, checks it in the real player and opens it in your browser.
 
 ### On the command line
