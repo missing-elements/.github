@@ -14,7 +14,7 @@ host, and runs under a strict Content Security Policy.
 | Element | What it does | Links |
 | --- | --- | --- |
 | [pdfjs&#8209;viewer](https://github.com/missing-elements/pdfjs-viewer) | Views and edits PDF files in Firefox's PDF.js viewer, in an isolated iframe, with no runtime dependencies | [Docs and playground](https://missing-elements.github.io/pdfjs-viewer/) · [npm](https://www.npmjs.com/package/@missing-elements/pdfjs-viewer) |
-| [h5p&#8209;offline&#8209;player](https://github.com/missing-elements/h5p-offline-player) | Plays `.h5p` files from your own URLs or from disk with no H5P server, offline too, and reports results as xAPI, cmi5 or SCORM | [Demo](https://h5p-offline-player.vercel.app/) · [npm](https://www.npmjs.com/package/@missing-elements/h5p-offline-player) |
+| [h5p&#8209;offline&#8209;player](https://github.com/missing-elements/h5p-toolkit) | Plays `.h5p` files from your own URLs or from disk with no H5P server, offline too, and reports results as xAPI, cmi5 or SCORM | [Demo](https://h5p-offline-player.vercel.app/) · [npm](https://www.npmjs.com/package/@missing-elements/h5p-offline-player) |
 
 ## Tools
 
@@ -42,19 +42,23 @@ Five skills for Claude Code and other agents that run commands. None needs an AP
 server.
 
 ```bash
-npx skills add missing-elements/h5p-offline-player
+npx skills add missing-elements/h5p-toolkit
 ```
 
 | Skill | What it does |
 | --- | --- |
-| [`h5p-author`](https://github.com/missing-elements/h5p-offline-player/tree/main/skills/h5p-author) | Turns a prompt or a lesson into H5P content of any of 28 types, and checks it in the real player |
-| [`h5p-verify`](https://github.com/missing-elements/h5p-offline-player/tree/main/skills/h5p-verify) | Checks that a package plays, and opens it for you to try |
-| [`h5p-to-scorm`](https://github.com/missing-elements/h5p-offline-player/tree/main/skills/h5p-to-scorm) | Turns a package into a SCORM zip for an LMS |
-| [`h5p-player-setup`](https://github.com/missing-elements/h5p-offline-player/tree/main/skills/h5p-player-setup) | Puts H5P on a website |
-| [`h5p-normalize`](https://github.com/missing-elements/h5p-offline-player/tree/main/skills/h5p-normalize) | Rewrites a package whose video will not stream |
+| [`h5p-author`](https://github.com/missing-elements/h5p-toolkit/tree/main/skills/h5p-author) | Turns a prompt or a lesson into H5P content of any of 28 types, and checks it in the real player |
+| [`h5p-verify`](https://github.com/missing-elements/h5p-toolkit/tree/main/skills/h5p-verify) | Checks that a package plays, and opens it for you to try |
+| [`h5p-to-scorm`](https://github.com/missing-elements/h5p-toolkit/tree/main/skills/h5p-to-scorm) | Turns a package into a SCORM zip for an LMS |
+| [`h5p-player-setup`](https://github.com/missing-elements/h5p-toolkit/tree/main/skills/h5p-player-setup) | Puts H5P on a website |
+| [`h5p-normalize`](https://github.com/missing-elements/h5p-toolkit/tree/main/skills/h5p-normalize) | Rewrites a package whose video will not stream |
 
 A chat that cannot install a skill reads `h5p-author` from
 [missing-elements.github.io/h5p/skill/](https://missing-elements.github.io/h5p/skill/).
+
+In an app with no shell, such as Claude Desktop,
+[`h5p-mcp`](https://github.com/missing-elements/h5p-toolkit/tree/main/packages/mcp#readme)
+builds a `.h5p` onto your disk, checks it in the real player and opens it in your browser.
 
 ### On the command line
 
