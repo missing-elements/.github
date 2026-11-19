@@ -14,9 +14,12 @@ host, and runs under a strict Content Security Policy.
 | Element | What it does | Links |
 | --- | --- | --- |
 | [pdfjs&#8209;viewer](https://github.com/missing-elements/pdfjs-viewer) | Views and edits PDF files in Firefox's PDF.js viewer, in an isolated iframe, with no runtime dependencies | [Docs and playground](https://missing-elements.github.io/pdfjs-viewer/) · [npm](https://www.npmjs.com/package/@missing-elements/pdfjs-viewer) |
-| [h5p&#8209;offline&#8209;player](https://github.com/missing-elements/h5p-toolkit) | Plays `.h5p` files from your own URLs or from disk with no H5P server, offline too, and reports results as xAPI, cmi5 or SCORM | [Demo](https://h5p-offline-player.vercel.app/) · [npm](https://www.npmjs.com/package/@missing-elements/h5p-offline-player) |
+| [h5p&#8209;offline&#8209;player](https://github.com/missing-elements/h5p-toolkit/tree/main/packages/player#readme) | Plays `.h5p` files from your own URLs or from disk with no H5P server, offline too, and reports results as xAPI, cmi5 or SCORM | [Demo](https://h5p-offline-player.vercel.app/) · [npm](https://www.npmjs.com/package/@missing-elements/h5p-offline-player) |
 
-## Tools
+## [H5P Toolkit by Missing Elements](https://github.com/missing-elements/h5p-toolkit)
+
+Everything you needed an H5P server for (playing, building, checking, packaging for an LMS) as
+static files, command-line tools and agent skills, built on the player above.
 
 ### In your browser
 
